@@ -55,18 +55,20 @@ section{
 
 }
 .card1{
-    background-color: var(--secundary);
-    width: 40%;
-    height: 500px;
+    background-color: var(--terciary);
+    width: 80%;
+    height: 80%;
     border-radius: 8px;
     padding: auto;
     margin-top: 40px;
-    filter: drop-shadow(0 20px 13px rgb(0 0 0 / 0.03)) drop-shadow(0 8px 5px rgb(0 0 0 / 0.08));
+    display: flex;
+    vertical-align: middle;
 }
 .card-text{
-    width: 100%;
+    width: 50%;
     height: 50%;
     display: flex;
+    margin: auto;
 }
 .card-text .text{
     margin: auto;
@@ -79,6 +81,7 @@ section{
     display: flex;
     text-align: center;
     overflow: hidden;
+    width: 40%;
     top: 50%;
     left: 50%;
     right: 50%;
