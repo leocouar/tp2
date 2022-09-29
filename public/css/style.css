@@ -1,6 +1,6 @@
 :root{
     --primary: #ffffff;
-    --secundary:#434343;
+    --secundary:#6e6e6e;
     --terciary:#96ff7c;
     --buttom:#3ba800 ;
 }
@@ -32,7 +32,7 @@ section{
 .btn {
     margin: 20px;
     background-color: green;
-    color: #ffffff;
+    color: var(--primary);
     width: 90px;
     height: 40px;
     text-align: center;
@@ -41,13 +41,13 @@ section{
 
 
 .sec1{
-    background-image: url(abinvesting-mercado-de-capitales.jpg);
+    background-image: url(../images/abinvesting-mercado-de-capitales.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
 }
 .sec2{
-    background: var(--secundary);
+    background: var(--primary);
 }
 .card-container {
     display: flex;
@@ -55,7 +55,7 @@ section{
 
 }
 .card1{
-    background-color: var(--primary);
+    background-color: var(--secundary);
     width: 40%;
     height: 500px;
     border-radius: 8px;
@@ -71,6 +71,7 @@ section{
 .card-text .text{
     margin: auto;
     width: 80%;
+    height: 100%;
     font-size: 20px;
     font-weight: 700;
 }
@@ -101,6 +102,7 @@ section{
     border-radius: 5px;
     display: flex;
     justify-content: space-around;
+    border-radius: 5px;
 }
 .sec31{
     display: flex;
@@ -108,13 +110,22 @@ section{
     text-align: center;
     width: 50%;
     background-color: var(--terciary);
+    border-radius: 5px;
 }
+.sec31 div{
+    margin: auto;
+    width: 80%;
+    
+    
+}
+
 .sec32{
     display: flex;
     align-items: center;
     padding: auto;
     width: 50%;
 }
+
 .form {
     width: 80%;
     margin: auto;
